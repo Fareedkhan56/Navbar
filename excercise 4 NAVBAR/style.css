@@ -1,0 +1,42 @@
+:root{
+    --backgroundColor: rgb(0, 0, 0);
+    --color:rgb(255, 255, 115);
+    --hoverColor:rgb(0, 234, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    color: var(--color);
+    background: var(--backgroundColor);
+    display: inline-block;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+}
+span{
+    margin: 5px;
+    position: relative;
+    font-size: 1.5rem;
+    top: 30%;
+    left: 2%;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+li a{
+    color: var(--color);
+    text-decoration: none;
+    position: relative;
+    left: 70%;
+    margin: 5px;
+    padding: 5px;
+}
+li a:hover{
+    color:var(--hoverColor) ;
+    text-decoration: underline;
+}
